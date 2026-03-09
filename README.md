@@ -1,29 +1,24 @@
 # AI Passkeys Integration
-__Time Estimate: 20 mins (Vibe) / ~45 mins (Manual)__
+_Time Estimate: 20 mins (Vibe Coding)_
 
 Passkeys are supported on Soroban through the use of WebAuthn, a web standard for secure authentication. With passkeys, users can authenticate using a variety of methods, including biometrics (like fingerprint or facial recognition). This allows for a more secure and user-friendly authentication experience when interacting with Soroban dApps.
 
 The Passkey Kit is used to create a contract account (wallet) that allows signing transactions with passkeys, and holding a token balance. The Passkey Kit is a TypeScript SDK that provides functionality for creating and managing passkey-based wallets on Soroban. It abstracts away the complexities of working with WebAuthn and Soroban smart contracts, making it easier for developers to integrate passkey authentication into their dApps.
 
-Why Use Passkeys?
-Users can register, authenticate and sign transactions, using biometrics or other secure methods
+## Why Use Passkeys?
+* Users can register, authenticate and sign transactions, using biometrics or other secure methods
+* Create a Web2-like user experience, without the need for using (or setting up) wallets
+* Works across modern browsers and platforms
 
-Create a Web2-like user experience, without the need for using (or setting up) wallets
+Learn more about Passkeys with these resources:
 
-Works across modern browsers and platforms
-
-Learn more about Scaffold Stellar and get started with these resources:
-
-Documentation
-
-Passkey Kit GitHub
-
-Passkeys Example *
-
+* [Documentation](https://developers.stellar.org/docs/build/guides/contract-accounts/smart-wallets)
+* [Passkey Kit GitHub](https://github.com/kalepail/passkey-kit)
+* [Passkeys Example](https://developers.stellar.org/docs/build/apps/guestbook) *
 
 *) Please note the example uses Launchtube, use OpenZeppelin Relayer instead for sponsored transactions.
 
-Vibe Coding
+## Vibe Coding
 
 Claude Code is capable of implementing passkey authentication flows using the Passkey Kit SDK, and create all the UI components and logic required for using the smart account as a wallet.
 
